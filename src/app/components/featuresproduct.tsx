@@ -4,12 +4,13 @@ import { FaCartShopping } from "react-icons/fa6";
 
 export default function Featuresproduct() {
   const Data = [
-    '/Logo1.png',
-    '/Logo2.png',
-    '/Logo3.png',
-    '/Logo4.png',
-    '/Logo5.png',
-    '/Logo6.png',
+    '/logo1.png',
+    '/logo2.png',
+    '/logo3.png',
+    '/logo4.png',
+    '/logo5.png',
+    '/logo6.png',
+    '/logo7.png',
   ];
 
   const FeatureImage = [
@@ -26,7 +27,7 @@ export default function Featuresproduct() {
           <div key={i} className="flex justify-center">
             <Image
               src={val}
-              alt={`Logo${i}`}
+              alt={`logo${i}`}
               width={1000}
               height={1000}
               className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 object-contain"

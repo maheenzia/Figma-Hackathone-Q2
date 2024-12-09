@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image"
-import { BeakerIcon, ShoppingCartIcon } from '@heroicons/react/24/solid'
+import { ShoppingCartIcon } from '@heroicons/react/24/solid'
 import Link from 'next/link'
 
 const Navbar = () => {
@@ -52,11 +52,12 @@ const Navbar = () => {
         <div className="flex justify-between lg:gap-x-6 items-start space-x-2 px-1 py-2">
         <ul className='flex justify-start gap-6 text-xs sm:text-sm md:text-base sm:px-1 items-start px-1 ' >
          <Link href={"/"} className='hover:text-easternblue-600 text-midgray-600 font-medium text-lg'>Home</Link>
-         <Link href={"./card" }className='hover:text-easternblue-600 text-midgray-600 font-medium text-lg'>Shop</Link>
+         <Link href={"./card" } className='hover:text-easternblue-600 text-midgray-600 font-medium text-lg'>Shop</Link>
          <Link href={"./product"} className='hover:text-easternblue-600 text-midgray-600 font-medium text-lg'>Product</Link>
          <Link href={"./pages " }className='hover:text-easternblue-600 text-midgray-600 font-medium text-lg'>Pages</Link> 
          <Link href={"./about"} className='hover:text-easternblue-600 text-midgray-600 font-medium text-lg'>About</Link>
          <Link href={"./Contact"} className='hover:text-easternblue-600 text-midgray-600 font-medium text-lg'>Contact</Link>
+        
          </ul> 
          
         </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from 'react-icons/fa';
-import Image from 'next/image';
+
 
 export default function Contact() {
   return (
