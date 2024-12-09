@@ -4,7 +4,6 @@ import { FaCartShopping } from "react-icons/fa6";
 
 export default function Featuresproduct() {
   const Data = [
-    '/logo1.png',
     '/logo2.png',
     '/logo3.png',
     '/logo4.png',
